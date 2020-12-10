@@ -19,7 +19,8 @@
 </ul>
 
 ## Flow Details
-<p>This Flow is launched using an action (included) from the Service Session record and finds all Service Participants for the parent Service Schedule. Note: by default, the Flow finds only Service Participants with a sign-up date of prior to this Service Session---though this can be edited in the Flow.<p>
+<p>This screen Flow is launched using an Action (included in this package) from the Service Session record and finds all Service Participants for the parent Service Schedule. This package also includes a Lightning Page with for the Service Session with the Action included.</p>
+<p>The Flow finds the parent Service Schedule for this Session and gathers all Service Participants for that Schedule (<em>Note: by default, the Flow finds only Service Participants with a sign-up date of prior to this Service Session---though this can be edited in the Flow.</em>). The user is displayed a list of those participants and asked to mark who attended this session. The Flow then loops through the list of participants and sets output variables of 1 for quantity and "Attended" for those selected. Any individuals that were not selected are displayed on subsequent screens, where the user is asked to select their absence type: "Excused" or "No show." Those answers (along with those from the attendees) are written to an output variable that is used to mass create the Service Delivery records at the end of the Flow (outside of the loop for bulkification purposes). Service Delivery records are created with the appropriate client and attendance status as well as a quantity of 1 for attendees and 0 for absentees.</p>
 
 <a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/907pine/PMM_Attendance_Flow">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />

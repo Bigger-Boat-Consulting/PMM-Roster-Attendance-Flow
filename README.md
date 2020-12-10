@@ -31,7 +31,7 @@ To install in a production or sandbox environment, click on this button (step by
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
 
-# Step by step installation instructions
+## Step by step installation instructions
 
 1. Click the "Deploy to Salesforce" button above
 

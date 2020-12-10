@@ -1,8 +1,8 @@
-# Taking rostered attendance via a Flow in SFDO's Program Management Module
+# Taking rostered attendance via a Flow in SFDO's Program Management Module (PMM)
 
 ## Overview
 <p>This repository contains an unmanaged declarative screen Flow that assists with taking roster-based attendance as part of <a href="https://powerofus.force.com/s/article/PMM-Documentation">Salesforce's Program Management Module (PMM)</a>.</p>
-<p>PMM version 1.17 (11/05/2020) included new functionality for Service Schedules, Service Participants, and Service Sessions. Expanding on this new functionality, this screen Flow allows users to take roster-based attendance for an entire Service Session at once for all Service Participants, rather than one-by-one through Service Deliveries or Bulk Service Deliveries as currently configured through PMM.</p>
+<p>SFDO's PMM version 1.17 (11/05/2020) included new functionality for Service Schedules, Service Participants, and Service Sessions. Expanding on this new functionality, this screen Flow allows users to take roster-based attendance for an entire Service Session at once for all Service Participants, rather than one-by-one through Service Deliveries or Bulk Service Deliveries as currently configured through PMM.</p>
 <p><em>Note: PMM is required to be installed in order for this add-on to work in your org. Download/install PMM on <a href="https://install.salesforce.org/products/">Salesforce.org's Product Page</a>.</em></p>
 
 

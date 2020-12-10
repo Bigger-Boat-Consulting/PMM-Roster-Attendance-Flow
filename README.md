@@ -3,6 +3,7 @@
 ## Overview
 <p>This repository contains an unmanaged declarative screen Flow that assists with taking roster-based attendance as part of <a href="https://powerofus.force.com/s/article/PMM-Documentation">Salesforce's Program Management Module (PMM)</a>.</p>
 <p>SFDO's PMM version 1.17 (11/05/2020) included new functionality for Service Schedules, Service Participants, and Service Sessions. Expanding on this new functionality, this screen Flow allows users to take roster-based attendance for an entire Service Session at once for all Service Participants, rather than one-by-one through Service Deliveries or Bulk Service Deliveries as currently configured through PMM.</p>
+<p>The flow finds all Service Participants for a particular Service Session and asks the user which participants attended that session. A secondary flow screen is displayed for each individual that was not selected as "attended." This screen allows the user to select whether the absence was a "no show" or "excused." The flow then mass creates Service Delivery records with the attendance status added to the Service Delivery with a default quantity of 1 for attendees and 0 for absentees.</p> 
 <p><em>Note: PMM is required to be installed in order for this add-on to work in your org. Download/install PMM on <a href="https://install.salesforce.org/products/">Salesforce.org's Product Page</a>.</em></p>
 
 

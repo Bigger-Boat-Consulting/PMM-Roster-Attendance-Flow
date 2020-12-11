@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Service_Session_Record_Page2.flexipage</members>
+    <name>flexipages</name>
+  </types>
+  <types>
+    <members>Take_Attendance.flow</members>
+    <name>flows</name>
+  </types>
+  <types>
+    <members>pmdm__ServiceDelivery__c.object</members>
+    <members>pmdm__ServiceParticipant__c.object</members>
+    <members>pmdm__ServiceSession__c.object</members>    
+    <name>objects</name>
+  </types>
+  <types>
+    <members>pmdm__ServiceSession__c.Take_Attendance.quickAction</members>
+    <name>quickAction</name>
+  </types>
+  <version>50.0</version>
+</Package>

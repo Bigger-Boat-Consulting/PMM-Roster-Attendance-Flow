@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <name>Flexipages</name>
+    <name>flexipages</name>
     <members>Service_Session_Record_Page2.flexipage</members>
   </types>
   <types>
-    <name>Flows</name>
+    <name>flows</name>
     <members>Take_Attendance.flow</members>
   </types>
   <types>
-    <name>Objects</name>
+    <name>objects</name>
     <members>pmdm__ServiceDelivery__c.object</members>
     <members>pmdm__ServiceParticipant__c.object</members>
     <members>pmdm__ServiceSession__c.object</members>    

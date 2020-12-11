@@ -28,7 +28,7 @@
 ## Step by step installation instructions
 
 <p>To install in a production or sandbox environment, click on this button (step by step instructions below):</p>
-<a href="https://githubsfdeploy.herokuapp.com?owner=Bigger-Boat-Consulting&repo=PMM-Roster-Attendance-Flow">
+<a href="https://githubsfdeploy.herokuapp.com?owner=Bigger-Boat-Consulting&repo=PMM-Roster-Attendance-Flow&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>

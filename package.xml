@@ -15,7 +15,7 @@
     <name>flexipages</name>
   </types>
   <types>
-    <members>Take_Attendance.flow</members>
+    <members>Take_Attendance</members>
     <name>flows</name>
   </types>
   <version>50.0</version>

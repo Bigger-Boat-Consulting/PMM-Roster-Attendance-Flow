@@ -29,7 +29,7 @@
 
 <p>To install in a production or sandbox environment, click on this button (step by step instructions below):</p>
 
-<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/907pine/PMM_Attendance_Flow">
+<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/Bigger-Boat-Consulting/PMM-Roster-Attendance-Flow">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
 

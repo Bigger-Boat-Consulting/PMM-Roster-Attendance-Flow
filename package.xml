@@ -4,19 +4,19 @@
     <members>pmdm__ServiceDelivery__c</members>
     <members>pmdm__ServiceParticipant__c</members>
     <members>pmdm__ServiceSession__c</members>    
-    <name>objects</name>
+    <name>CustomObject</name>
   </types>
   <types>
     <members>pmdm__ServiceSession__c.Take_Attendance</members>
-    <name>quickAction</name>
+    <name>QuickAction</name>
   </types>
   <types>
     <members>Service_Session_Record_Page2</members>
-    <name>flexipages</name>
+    <name>FlexiPage</name>
   </types>
   <types>
     <members>Take_Attendance</members>
-    <name>flows</name>
+    <name>Flow</name>
   </types>
   <version>50.0</version>
 </Package>

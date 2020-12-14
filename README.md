@@ -17,6 +17,7 @@
   <li><strong>Service Session object -- Start Date (Formula Date)</strong></li>
     <ul><li>Used to convert Date/Time of Session Start Date to a Date field in order to filter out Participants who signed up <em>after</em> the date of this session</li></ul>
 </ul>
+<p><em>Note: all three of the above custom fields are deployed with access ONLY granted to System Administrators. Please update your user permissions for any other users that need access to those fields and/or run this Flow.</em></p>
 
 ## Flow Details
 <p>This screen Flow is launched using an Action (included in this package) from the Service Session record and finds all Service Participants for the parent Service Schedule. This package also includes a Lightning Page with for the Service Session with the Action included.</p>

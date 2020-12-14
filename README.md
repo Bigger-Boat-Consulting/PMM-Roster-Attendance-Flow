@@ -30,7 +30,8 @@
   <li>Active the "Take Attendance" flow</li>
   <li>Add the "Take Attendance" lightning quick action to your active Service Sessions page layout</li>
   <li>Clone and rename the "DEMO Service Session Record Page" lighting record page and active the new version.</li>
-  <li>All three custom fields listed above come in with a default access of None. You will need to provide access to these fields to whichever Profiles need access to the Flow.</ul>
+  <li>By default, the three custom fields listed above are imported with access granted to only the System Administrator profile. You will need to update permissions for other users to see those fields and use the Flow.</ul>
+  <li>By default, the Flow is deployed without any associated permissions. This assumes users that will need to run this Flow will either have Run Flows enabled via their user settings or via their Profile. Be sure to extend access to the three custom fields for any users that need to run this Flow or you will encounter errors.
 </ul>
 
 ## Step by step installation instructions

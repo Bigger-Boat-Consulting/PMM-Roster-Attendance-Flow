@@ -24,6 +24,12 @@
 <p>The user is displayed a list of those participants and asked to mark who attended this session. The Flow then loops through the list of participants and sets output variables of 1 for quantity and "Attended" for those selected. Any individuals that were not selected are displayed on subsequent screens, where the user is asked to select their absence type: "Excused" or "No show." Those answers (along with those from the attendees) are written to an output variable.</p>
 <p>The Flow ends with Service Delivery records created en masse (outside the loop for bulkification purposes) with the appropriate client and attendance status, as well as a quantity of 1 for attendees and 0 for absentees.</p>
 
+## Post-Install Manual Steps
+<p>After installing this package, you'll need to complete a couple manual steps:</p>
+<ul>
+  <li>Active the "Take Attendance" flow</li>
+  <li>Add the "Take Attendance" lightning quick action to your active Service Sessions page layout</li>
+  <li>Clone and rename the "DEMO Service Session Record Page" lighting record page and active the new version.</li>
 
 ## Step by step installation instructions
 

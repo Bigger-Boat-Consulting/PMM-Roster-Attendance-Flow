@@ -30,6 +30,7 @@
   <li>Active the "Take Attendance" flow</li>
   <li>Add the "Take Attendance" lightning quick action to your active Service Sessions page layout</li>
   <li>Clone and rename the "DEMO Service Session Record Page" lighting record page and active the new version.</li>
+</ul>
 
 ## Step by step installation instructions
 
